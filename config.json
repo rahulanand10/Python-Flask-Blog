@@ -1,0 +1,22 @@
+{
+  "params":
+    {
+      "local_server":"True",
+      "local_url": "mysql://root:@localhost/codingblog",
+      "prod_url": "mysql://root:@localhost/codingblog",
+      "blog_name": "Coding Blog",
+      "fb_url":"https://facebook.com/rahulanand",
+      "tw_url":"https://twitter.com/rahulanand",
+      "gh_url":"https://github.com/rahulanand10",
+      "gmail-user": "aliyarocks2000@gmail.com",
+      "gmail-password": "mynameisaliya",
+      "no_of_posts": 2,
+      "login_image": "login.svg",
+      "admin_user": "rahul",
+      "admin_pass": "anand",
+      "upload_location": "D:\\python1\\FLASKTUTS\\static\\img"
+
+    }
+
+
+}
