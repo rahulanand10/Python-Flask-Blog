@@ -112,9 +112,10 @@ def edit(sno):
             date=datetime.now()
 
             if sno=='0':
-                post=Posts(title=box_title,slug=slug,content=content,tagline=tline,img_file=img_file,date=date)
+                post=Posts(title=box_title,tagline=tline,slug=slug,content=content,img_file=img_file,date=date)
                 db.session.add(post)
                 db.session.commit()
+
             else:
                 post=Posts.query.filter_by(sno=sno).first()
                 post.title=box_title
